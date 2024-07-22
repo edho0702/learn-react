@@ -1,0 +1,22 @@
+@import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css');
+
+ul {
+    display: flex;
+    flex-direction: column;
+    min-width: 13.75rem;
+    max-width: 40rem;
+    list-style: none;
+    padding-inline: 0;
+    margin: auto;
+    margin-block: 0;
+}
+
+li {
+    font-family: pretendard;
+    display: flex;
+    align-items: center;
+    gap: 1.25rem;
+    padding: 0.75rem;
+    background-color: #141415;
+    color: #fff
+}
